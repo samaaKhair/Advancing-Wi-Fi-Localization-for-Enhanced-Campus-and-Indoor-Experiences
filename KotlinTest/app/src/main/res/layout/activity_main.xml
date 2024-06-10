@@ -1,0 +1,64 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp"-->
+<!--    tools:context=".MainActivity">-->
+<!--    <EditText-->
+<!--        android:id="@+id/labelEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter label" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/wifiRSSITextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="WiFi RSSI" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/magnetometerDataTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Magnetometer Data" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/getWifiRSSIButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Get WiFi RSSI" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/getMagnetometerDataButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Get Magnetometer Data" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/sendDataButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Send Data" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/responseTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Response"-->
+<!--        android:layout_marginTop="16dp" />-->
+<!--</LinearLayout>-->
+<!-- res/layout/activity_main.xml -->
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.wifimagnetometerapp.ZoomableGridView
+        android:id="@+id/zoomableGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.20.141.37</domain> <!-- Removed http:// and :5000 -->
+    </domain-config>
+</network-security-config>
